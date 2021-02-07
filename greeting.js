@@ -23,7 +23,6 @@ function askForName(){
 }
 
 
-
 function paintGreeting(text){
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
@@ -37,7 +36,7 @@ function loadName(){
         askForName();
     } else{
         //로컬 스토리지에 유저가 있을때
-        paingGreeting(currenUser);
+        paintGreeting(currentUser);
     }
 }
 
