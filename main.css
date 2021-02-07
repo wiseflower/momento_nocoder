@@ -1,0 +1,24 @@
+body {
+    background-color:white;
+}
+
+h1 {
+    color: midnightblue;
+    transition: color .5s ease-in-out;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.clicked {
+    color: skyblue;
+}
+
+.form, .greetings{
+    display: none;
+}
+
+.showing {
+    display: block;
+}
